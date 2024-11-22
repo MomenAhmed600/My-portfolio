@@ -283,7 +283,7 @@ footer ul {
         grid-row: 1/2;
     }
     .text {
-        grid-column: 5/11;
+        grid-column: 6/11;
         grid-row: 1/2;
         order: 2;
         text-align: right;
@@ -292,7 +292,7 @@ footer ul {
         justify-content: flex-end;
     }
     #projects .reverse .text {
-        grid-column: 1/7;
+        grid-column: 1/6;
         order: 2;
         text-align: left;
     }
