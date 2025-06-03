@@ -1,15 +1,14 @@
 function aboeljdayel() {
-    window.open("https://67409a2b9d6f26a99af6a89d--abo-el-jdayel-project.netlify.app/")
+  window.open("https://abo-el-jdayel-project.netlify.app/");
 }
 
 function Youtube() {
-    window.open ("https://momenahmed600.github.io/youtube-project/")
+  window.open("https://momenahmed600.github.io/youtube-project/");
 }
 
 function AllBrands() {
-    window.open("https://github.com/MomenAhmed600/All-Brands-project")
+  window.open("https://all-brands.netlify.app/");
 }
-
 
 // let myprojects = document.querySelector(".projects")
 // let mycontact = document.querySelector(".contact-me")
