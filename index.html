@@ -1,203 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="my-portfolio-icon" href="/img/images.png" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="my-portfolio-icon" href="/img/images.png">
-    <title>Mo'men Portfolio</title>
-</head>
-
-<body>
-    <nav>
-        <ul>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!-- just like the finished product, but swap out CSS Shapes for the SVGs used in the "about" portion of the page. -->
+    <div class="wrapper">
+      <header>
+        <fieldset class="radio-switch" id="mode-switcher">
+          <legend>Color Scheme</legend>
+          <input type="radio" name="color-scheme" id="light" checked />
+          <label for="light"> Light </label>
+          <input type="radio" name="color-scheme" id="dark" />
+          <label for="dark"> Dark </label>
+        </fieldset>
+      </header>
+      <article class="main-article">
+        <div class="text">
+          <h2>Frontend Developer</h2>
+          <h1>Momen Ahmed</h1>
+          <h3>
+            Digital Egypt Pioneers Initiative “DEPI” Certificate:
+            <a
+              href="https://www.mediafire.com/view/c1vwf4g5u7znx49/Digital_Egypt_Pioneers_Initiative_%25E2%2580%259CDEPI%25E2%2580%259D_Certificate.jpg/file"
+              target="_blank"
+              >Certificate</a
+            >
+          </h3>
+          <p>
+            Front-End Developer passionate about creating modern, responsive,
+            and user-friendly web interfaces. Skilled in HTML, CSS, JavaScript,
+            Bootstrap, Tailwind CSS, and React. I focus on writing clean code,
+            building responsive designs, and delivering smooth user experiences.
+            Always learning new technologies to improve my skills and bring
+            creative ideas to life.
+          </p>
+          <ul class="icons">
             <li>
-                <h1 class="h1-edit">
-                    <a href="index.html">
-                        <span class="fas fa-code" aria-hidden="true"></span>
-                        <span>Momen Ahmed</span>
-                    </a>
-                </h1>
+              <a href="https://github.com/MomenAhmed600" target="_blank"
+                ><div class="github social"></div
+              ></a>
             </li>
-            <li><a href="/" class="projects" onclick="scrolldown()">Projects</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact" class="contact-me">Contact</a></li>
-            <li><a href="https://www.linkedin.com/in/momenahmed600/" target="_blank"><span><i
-                            class="fa-brands fa-linkedin"></i></span> <span class="sr-only">LinkedIn</span></a></li>
-
-            <li><a href="https://github.com/MomenAhmed600" target="_blank"><span class="fab fa-github-square"
-                        aria-hidden="true"></span> <span class="sr-only">Github</span></a></li>
-
+            <li>
+              <a
+                href="https://www.linkedin.com/in/momen-ahmed-aa6bbb26b/"
+                target="_blank"
+                ><div class="linkedin social"></div>
+              </a>
             </li>
-            <li><a href="https://replay.dropbox.com/share/tldNF7FDLDGgIswI?variant=v2&media_type=pdf" class="button">My
-                    Resume</a></li>
-        </ul>
-    </nav>
+            <li>
+              <a href="mailto:momen1616@gmail.com" target="_blank">
+                <div class="email social"></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <img src="./img/me.jpg" alt="MomenAhmed." />
+      </article>
+      <main>
+        <h2 class="h2-footer">Projects</h2>
+        <div class="projects">
+          <article class="project">
+            <div class="text">
+              <h3>All-Brands-project</h3>
+              <p>
+                AllBrands is a bilingual e-commerce platform built with React,
+                Bootstrap, and modern CSS. It aggregates global fashion brands
+                not available in Egypt, offering a sleek, responsive interface
+                with user authentication, search and filtering, and cart
+                management. Built using reusable React components, it highlights
+                strong front-end skills and a focus on user experience and clean
+                design.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>responsive web design</li>
+              </ul>
+            </div>
+            <img
+              src="./img/all-products.PNG"
+              onclick="AllBrands()"
+              alt="Screenshot of the Wall of Wonder."
+            />
+          </article>
+          <article class="project">
+            <div class="text">
+              <h3>Abo-El-Jdayel-project</h3>
+              <p>
+                Abo-El-Jdayel Project is a recruitment platform built with HTML,
+                CSS, JavaScript, React, and Bootstrap. It connects Arab
+                professionals with top job opportunities in Dubai, Saudi Arabia,
+                and across the Gulf region. Featuring a modern, responsive
+                design and interactive UI, it ensures smooth navigation and a
+                user-friendly experience. The project highlights strong
+                front-end development and responsive design skills, focusing on
+                clarity, trust, and professional usability.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>responsive web design</li>
+              </ul>
+            </div>
+            <img
+              src="./img/abo-jadayle.PNG"
+              alt="Grid-based layout with 3 columns and 4 rows, some merged, featuring planets and moons."
+              onclick="aboeljdayel()"
+              class="img-border"
+            />
+          </article>
+          <article class="project">
+            <div class="text">
+              <h3>YouTube Project</h3>
+              <p>
+                This YouTube-inspired project is built using plain HTML, CSS,
+                Bootstrap, JavaScript, and responsive web design. It features a
+                dark-themed interface with interactive elements like category
+                filters, video thumbnails, and a functional search bar,
+                effectively mimicking the YouTube browsing experience.
+              </p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+                <li>responsive web design</li>
+              </ul>
+            </div>
+            <img
+              src="./img/youtube project.PNG"
+              alt="Our Team page featuring 6 images of people in 2 rows with social media icons overlapping each image."
+              onclick="Youtube()"
+            />
+          </article>
+        </div>
+      </main>
+      <footer>
+        <h2 class="h2-footer">Other Projects</h2>
+        <div class="footer-text">
+          <div class="footer-text-box">
+            <h3>Projects Links:</h3>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/MomenAhmed600/Depi-Final-Recipe-"
+                  target="_blank"
+                  >Depi-Final-Recipe-Project</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://momenahmed600.github.io/Socialbook-project/"
+                  target="_blank"
+                  >This-social-Book-Project</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-text-box">
+            <h3>Web Technology:</h3>
+            <ul>
+              <li>That “DEPI” Certificate / React-website</li>
+              <li>Html/ Css / Basic JavaScript / Not Responsive</li>
+            </ul>
+          </div>
+        </div>
 
-    <section id="intro">
-        <p class="name">Hi, my name is <span class="name-me">Mo'men Ahmed</span></p>
-        <h2>I'm Front End Developer</h2>
-        <p>Front-end development involves creating interactive, visually appealing user interfaces for web and mobile
-            applications using HTML, CSS, and JavaScript.
-        </p>
-
-    </section>
-
-    <div class="section-dkblue">
-        <section id="projects">
-            <h2>Projects:</h2>
-            <article class="reverse">
-                <div class="text">
-                    <h4>React Project</h4>
-                    <h1>All-Brands-project</h1>
-                    <p class="blackbox">
-                        This React project, titled AllBrands, is a dynamic, bilingual e-commerce platform developed to
-                        aggregate international fashion brands not available in Egypt. It allows users to browse
-                        products from popular global brands, with a sleek, responsive interface .
-
-                        The platform features:
-
-                        A clean and responsive layout built with React, Bootstrap, and modern CSS.
-
-                        User authentication (account creation, login, logout).
-
-                        Search and filtering functionalities to easily navigate items.
-
-                        Cart management and detailed product views for a complete e-commerce experience.
-
-                        Reusable React components for scalability and maintainability.
-
-                        Tailored visual design to meet specific client expectations.
-
-                        This project not only showcases technical proficiency with front-end technologies but also
-                        emphasizes user experience
-                    </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>responsive web design</li>
-                    </ul>
-                </div>
-                <img src="./img/all-products.PNG" onclick="AllBrands()" alt="Screenshot of the Wall of Wonder." />
-            </article>
-
-            <article>
-                <div class="text">
-                    <h4>This Is Freelance React Project</h4>
-                    <h1>Abo-El-Jdayel-project</h1>
-                    <p class="blackbox">
-                        This React project, titled AllBrands, is a dynamic, bilingual e-commerce platform developed to
-                        aggregate international fashion brands not available in Egypt. It allows users to browse
-                        products from popular global brands, with a sleek, responsive interface .
-
-                        The platform features:
-
-                        A clean and responsive layout built with React, Bootstrap, and modern CSS.
-
-                        User authentication (account creation, login, logout).
-
-                        Search and filtering functionalities to easily navigate items.
-
-                        Cart management and detailed product views for a complete e-commerce experience.
-
-                        Reusable React components for scalability and maintainability.
-
-                        Tailored visual design to meet specific client expectations.
-
-                        This project not only showcases technical proficiency with front-end technologies but also
-                        emphasizes user experience
-                    </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>responsive web design</li>
-                    </ul>
-                </div>
-                <img src="./img/abo-jadayle.PNG" onclick="aboeljdayel()" alt="Screenshot of the Wall of Wonder." />
-            </article>
-            <article class="reverse">
-                <div class="text">
-                    <h4>Bootstrap Project </h4>
-                    <h1>YouTube Project</h1>
-                    <p class="blackbox">
-                        This YouTube-inspired project is built using plain HTML, CSS, Bootstrap, JavaScript, and
-                        responsive web design. It features a dark-themed interface with interactive elements like
-                        category filters, video thumbnails, and a functional search bar, effectively mimicking the
-                        YouTube browsing experience.
-                    </p>
-                    <h4>Technologies used include:</h4>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Bootstrap</li>
-                        <li>JavaScript</li>
-                        <li>responsive web design</li>
-                    </ul>
-                </div>
-                <img src="./img/youtube project.PNG" onclick="Youtube()"
-                    alt="Screenshot of the Frontend Masters Bootcamp." />
-            </article>
-        </section>
+        <h2 class="h2-footer">Contact</h2>
+        <div class="footer-text">
+          <ul class="icons">
+            <li>
+              <a href="https://github.com/MomenAhmed600" target="_blank"
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                  <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                    class="social"
+                  /></svg
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/momen-ahmed-aa6bbb26b/"
+                target="_blank"
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    class="social"
+                  /></svg
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:momen1616@gmail.com" target="_blank"
+                ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                    class="social"
+                  /></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </div>
-
-    <div class="gradient"></div>
-
-    <div class="section-plum">
-        <section id="contact">
-            <h2>Contact me</h2>
-            <p>
-                Front-end development involves building the user-facing part of websites and applications, focusing on
-                responsive design, user experience, and interactive elements.
-            </p>
-            <p><a href="mailto:momen1616@gmail.com" class="button">Email me</a></p>
-        </section>
-    </div>
-
-    <div class="gradient"></div>
-
-    <footer>
-        <h2>Momen Ahmed</h2>
-        <ul>
-            <li>
-                <a href="https://www.linkedin.com/in/momenahmed600/" target="_blank">
-                    <span class="fab fa-linkedin" aria-hidden="true"></span>
-                    <span class="sr-only">LinkedIn</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/MomenAhmed600" target="_blank">
-                    <span class="fab fa-github-square" aria-hidden="true"></span>
-                    <span class="sr-only">Github</span>
-                </a>
-            </li>
-            <li>
-                <a href="mailto:momen1616@gmail.com">
-                    <span class="fas fa-envelope" aria-hidden="true"></span>
-                    <span class="sr-only">Email</span>
-                </a>
-            </li>
-        </ul>
-        <p><small>&copy; 2021 Momen Ahmed. All rights reserved.</small></p>
-    </footer>
-
-    <script src="https://unpkg.com/popmotion@11.0.3/dist/popmotion.min.js"></script>
-
-    <script src="https://kit.fontawesome.com/b808843167.js"></script>
-
-
     <script src="main.js"></script>
-</body>
-
+  </body>
 </html>
