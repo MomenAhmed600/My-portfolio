@@ -27,7 +27,7 @@ html:has(#mode-switcher #dark:checked) {
   color-scheme: dark;
 }
 *,
-*::before,
+*::before,a
 *::after {
   box-sizing: inherit;
 }
@@ -71,7 +71,7 @@ a {
   color: var(--ld-blue);
 }
 a:hover {
-  color: var(--marina);
+  color: var(--marin);
 }
 /* fieldset {
   display: flex;
@@ -81,6 +81,20 @@ a:hover {
   max-width: 300px;
   margin: 0 0 5rem auto;
 } */
+ .btn-demo {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #5a91c7;
+  color: var(--white);
+  padding: 0.7rem 2rem;
+  border-radius: var(--corners-sm);
+  text-decoration: none;
+  font-size: calc(var(--base-font-size) * 0.85);
+  border: none;
+ }
+.btn-demo:hover {
+  color: black;
+}
 @layer switch {
   .radio-switch {
     border: none;
