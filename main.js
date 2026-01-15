@@ -9,3 +9,7 @@ function Youtube() {
 function AllBrands() {
   window.open("https://all-brands.netlify.app/");
 }
+
+function Ecuador() {
+  window.open("https://ecuador-project.netlify.app/");
+}
