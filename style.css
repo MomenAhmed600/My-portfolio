@@ -97,7 +97,7 @@ a:hover {
 }
 
 
- .btn-cv {
+ .button-cv {
   display: inline-block;
   cursor: pointer;
   background-color: #5a91c7;
@@ -110,7 +110,7 @@ a:hover {
     margin: 0.5rem 0 0.5rem 0;
     text-align: center;
  }
-.btn-cv:hover {
+.button-cv:hover {
   color: black;
 }
 @layer switch {
