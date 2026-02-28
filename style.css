@@ -95,6 +95,24 @@ a:hover {
 .btn-demo:hover {
   color: black;
 }
+
+
+ .btn-cv {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #5a91c7;
+  color: var(--white);
+  padding: 0.7rem 2rem;
+  border-radius: var(--corners-sm);
+  text-decoration: none;
+  font-size: calc(var(--base-font-size) * 0.85);
+  border: none;
+    margin: 0.5rem 0 0.5rem 0;
+    text-align: center;
+ }
+.btn-cv:hover {
+  color: black;
+}
 @layer switch {
   .radio-switch {
     border: none;
@@ -461,6 +479,7 @@ footer {
   h1 {
     margin-left: -3px;
   }
+
   .btn {
     margin: 0.5rem 0 0.5rem 0;
     text-align: start;

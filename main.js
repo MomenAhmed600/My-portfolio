@@ -13,3 +13,9 @@ function AllBrands() {
 function Ecuador() {
   window.open("https://ecuador-project.netlify.app/");
 }
+
+function CV() {
+  window.open(
+    "https://drive.google.com/file/d/1j2KaWtfU7o7ht-phmrGYzWAGoDaGMBWN/view?usp=sharing",
+  );
+}
