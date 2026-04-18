@@ -10,8 +10,8 @@ function AllBrands() {
   window.open("https://all-brands.netlify.app/");
 }
 
-function Ecuador() {
-  window.open("https://ecuador-project.netlify.app/");
+function Blanco() {
+  window.open("https://blanco-cafe.netlify.app/");
 }
 
 function CV() {
